@@ -9,3 +9,4 @@ data.head()
 data.loc[data['whoAmI'] == 'human', 'human'] = '1'
 data.loc[data['whoAmI'] != 'human', 'human'] = '0'
 data.drop(columns='whoAmI')
+print(data)
